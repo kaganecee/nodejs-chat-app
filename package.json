@@ -1,0 +1,30 @@
+{
+  "name": "chatchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaganecee/chatchat.git"
+  },
+  "author": "Bilge Kağan Ece",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaganecee/chatchat/issues"
+  },
+  "homepage": "https://github.com/kaganecee/chatchat#readme",
+  "devDependencies": {
+    "@types/socket.io": "^3.0.2",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "socket.io": "^2.2.0"
+  },
+  "dependencies": {
+    "bad-words": "^3.0.4"
+  }
+}
