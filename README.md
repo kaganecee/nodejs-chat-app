@@ -19,7 +19,7 @@ Launch chat server:
 
     npm run dev ( You need to include nodemon from npm in your project)
     or 
-    node index.js
+    node src/index.js
 
 Open this URL in your browser:
 
