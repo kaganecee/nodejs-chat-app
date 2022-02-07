@@ -22,9 +22,6 @@ app.use(express.static(publicDirectoryPath))
 io.on('connection', (socket) => { 
     console.log('New connection');
 
-    // socket.emit("countUpdated",count)
-    
-
     socket.on("join", (options, callback) => {
         const { error, user } = addUser({id: socket.id, ...options})
         
