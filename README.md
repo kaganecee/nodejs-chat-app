@@ -17,7 +17,7 @@ Fetch dependencies:
 
 Launch chat server:
 
-    npm run dev ( You need to include nodemon from npm in your project)
+    npm run dev
     or 
     node src/index.js
 
